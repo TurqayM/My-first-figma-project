@@ -1,0 +1,697 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+header .container {
+  background-color: #faf7ed;
+  padding-bottom: 25px;
+}
+
+header .container .navbar-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 0px;
+  top: 0px;
+}
+
+header .container .navbar-wrapper img {
+  width: 230px;
+  height: 60px;
+  left: 40px;
+  top: 20px;
+}
+
+header .container .navbar-wrapper .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+header .container .navbar-wrapper .navbar ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #173261;
+}
+
+header .container .navbar-wrapper .navbar-mobile {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+form {
+  font-family: 'Raleway', sans-serif;
+}
+
+.boxes {
+  padding: 0 180px;
+}
+
+.container {
+  padding: 0 40px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+main #first-day-in-NY {
+  background-color: #ffffff;
+  padding-bottom: 25px;
+}
+
+main #first-day-in-NY .wrapper {
+  background-image: url("https://www.hoteleventi.com/images/1700-960/eventi-empire-state-building-skyline-ff63f4dc.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  margin-top: 0px;
+}
+
+main #first-day-in-NY .wrapper .first-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 90%;
+}
+
+main #first-day-in-NY .wrapper .first-about h1 {
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 60px;
+  color: #173261;
+  width: 70%;
+  line-height: 90px;
+}
+
+main #first-day-in-NY .wrapper .first-about p {
+  font-weight: normal;
+  font-size: 20px;
+  background-color: rgba(250, 235, 215, 0.781);
+  color: #173261;
+  border-radius: 5px;
+  width: 60%;
+  line-height: 25px;
+  padding: 10px 15px;
+}
+
+main #first-day-in-NY .wrapper .first-about button {
+  margin-top: 55px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #1245EE;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+main #first-day-in-NY .wrapper .first-about button:hover {
+  background-color: #107ee6;
+  color: white;
+}
+
+main #title {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+main #title .about {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+main #title .about h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  width: 80%;
+  color: #1245EE;
+}
+
+main #title .about p {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 49%;
+  color: #173261;
+}
+
+main #title .about button {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #1245EE;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+main #title .about button:hover {
+  background-color: #107ee6;
+  color: white;
+}
+
+main #first-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #first-content .binding {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  justify-content: center;
+  width: 100%;
+}
+
+main #first-content .binding .those-of-today {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 35%;
+  color: #173261;
+  margin-right: 50px;
+  margin-left: 80px;
+}
+
+main #first-content .binding .those-of-today h3 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  width: 80%;
+  color: #1245EE;
+}
+
+main #first-content .binding .those-of-today p {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #173261;
+}
+
+main #first-content .binding .those-of-today ul {
+  margin-top: 10px;
+  line-height: 24px;
+  position: static;
+}
+
+main #first-content .binding .those-of-today button {
+  margin-top: 80px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #1245EE;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+main #first-content .binding .those-of-today button:hover {
+  background-color: #107ee6;
+  color: white;
+}
+
+main #first-content .binding .picture-of-the-day {
+  height: 100%;
+  width: 46.5%;
+}
+
+main #first-content .binding .picture-of-the-day img {
+  height: 100%;
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main #second-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #second-content .second-binding {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+main #second-content .second-binding .second-picture-of-the-day {
+  height: 100%;
+  width: 46.5%;
+}
+
+main #second-content .second-binding .second-picture-of-the-day img {
+  height: 100%;
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main #second-content .second-binding .second-those-of-today {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 35%;
+  color: #173261;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+main #second-content .second-binding .second-those-of-today h3 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  width: 80%;
+  color: #1245EE;
+}
+
+main #second-content .second-binding .second-those-of-today p {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #173261;
+}
+
+main #second-content .second-binding .second-those-of-today ul {
+  margin-top: 10px;
+  line-height: 24px;
+  position: static;
+}
+
+main #second-content .second-binding .second-those-of-today button {
+  margin-top: 80px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #1245EE;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+main #second-content .second-binding .second-those-of-today button:hover {
+  background-color: #107ee6;
+  color: white;
+}
+
+main #triple-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F3F5FE;
+  padding-left: 60px;
+}
+
+main #triple-card .manhattan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 83vh;
+  margin-top: 50px;
+  padding-left: 80px;
+  margin-right: 70px;
+}
+
+main #triple-card .manhattan .manhattan-streets {
+  width: 28.5%;
+  height: 92%;
+  background-color: white;
+  margin-left: 30px;
+  margin-right: 0px;
+  -webkit-box-shadow: 0px 0px 20px rgba(23, 50, 97, 0.2);
+          box-shadow: 0px 0px 20px rgba(23, 50, 97, 0.2);
+}
+
+main #triple-card .manhattan .manhattan-streets .manhattan-streets-img {
+  width: 100%;
+  height: 35.5%;
+  margin: 40px 40px 0px 40px;
+}
+
+main #triple-card .manhattan .manhattan-streets .manhattan-streets-img img {
+  width: 79%;
+  height: 86.5%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main #triple-card .manhattan .manhattan-streets .manhattan-streets-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 80%;
+  color: #173261;
+  margin-left: 40px;
+  left: calc(50% - 300px/2);
+}
+
+main #triple-card .manhattan .manhattan-streets .manhattan-streets-text h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  width: 80%;
+  color: #173261;
+  margin-bottom: 20px;
+}
+
+main #triple-card .manhattan .manhattan-streets .manhattan-streets-text p {
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #173261;
+}
+
+main #triple-card .manhattan .manhattan-streets .manhattan-streets-text button {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #1245EE;
+  color: whitesmoke;
+  cursor: pointer;
+  width: 100%;
+}
+
+main #triple-card .manhattan .manhattan-streets .manhattan-streets-text button:hover {
+  background-color: #107ee6;
+  color: white;
+}
+
+main #slide {
+  width: 100%;
+  height: 67.5vh;
+  padding-bottom: 50px;
+  background-color: #F3F5FE;
+}
+
+main #slide .those-on-the-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 500px;
+  width: 1024px;
+  left: 0px;
+  top: 3832px;
+  border-radius: 0px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+main #slide .those-on-the-slide .slide-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 0px 0px 495px;
+}
+
+main #slide .those-on-the-slide .slide-image img {
+  width: 1184px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main #form {
+  width: 100%;
+  height: 85vh;
+  padding-bottom: 50px;
+  background-color: #F3F5FE;
+}
+
+main #form .fill-out-the-form {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+main #form .fill-out-the-form .action-page {
+  margin-left: 19%;
+}
+
+main #form .fill-out-the-form .action-page .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #173261;
+  font-family: 'Raleway', sans-serif;
+}
+
+main #form .fill-out-the-form .action-page .all .left-side {
+  width: 200px;
+  padding-bottom: 0px;
+}
+
+main #form .fill-out-the-form .action-page .all .left-side input {
+  border: red;
+  width: 445px;
+  height: 40px;
+  margin-bottom: 22px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 20px rgba(23, 50, 97, 0.2);
+          box-shadow: 0px 0px 20px rgba(23, 50, 97, 0.2);
+  padding: 10px;
+  color: #173261;
+}
+
+main #form .fill-out-the-form .action-page .all .left-side label {
+  font-size: 10;
+  color: #173261;
+}
+
+main #form .fill-out-the-form .action-page .all .right-side {
+  margin-left: 22.5%;
+  width: 200px;
+}
+
+main #form .fill-out-the-form .action-page .all .right-side input {
+  border: red;
+  width: 445px;
+  height: 40px;
+  margin-bottom: 22px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 20px rgba(23, 50, 97, 0.2);
+          box-shadow: 0px 0px 20px rgba(23, 50, 97, 0.2);
+  padding: 10px;
+  color: #173261;
+}
+
+main #form .fill-out-the-form .action-page .all .right-side label {
+  font-size: 10;
+  color: #173261;
+}
+
+main #form .fill-out-the-form .action-page .message h4 {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color: #173261;
+}
+
+main #form .fill-out-the-form .action-page .message .form-control {
+  width: 75%;
+  height: 140px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #173261;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 20px rgba(23, 50, 97, 0.2);
+          box-shadow: 0px 0px 20px rgba(23, 50, 97, 0.2);
+}
+
+main #form .fill-out-the-form .action-page .submit {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-left: 53.5%;
+  color: #173261;
+  font-family: 'Raleway', sans-serif;
+}
+
+main #form .fill-out-the-form .action-page .submit input {
+  width: 234px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+  border: 2px solid #1245EE;
+  color: #1245EE;
+  height: 50px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+main #form .fill-out-the-form .action-page .submit input:hover {
+  background-color: #1245EE;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .navbar-mobile {
+    display: block !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */

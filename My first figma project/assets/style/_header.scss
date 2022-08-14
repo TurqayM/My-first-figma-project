@@ -1,0 +1,37 @@
+header{    
+    .container{
+        background-color: rgb(250, 247, 237);
+        padding-bottom: 25px;
+        .navbar-wrapper{
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+            width: 100%;
+            align-items: center;
+            left: 0px;
+            top: 0px;           
+            img{
+                width: 230px;
+                height: 60px;
+                left: 40px;
+                top: 20px;
+            }
+            .navbar{
+                ul{
+                    display: flex;
+                    gap: 30px;
+                    li{
+                        a{
+                            font-size: $headerTextSize;
+                            font-weight: $headerTextWeight;
+                            color: $headerTextColor;
+                        }
+                    }
+                }
+            }
+            .navbar-mobile{
+                display: none;
+            }
+        }
+    }
+}
